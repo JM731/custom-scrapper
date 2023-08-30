@@ -20,8 +20,6 @@ import requests
 from requests.exceptions import ConnectionError
 import pandas as pd
 
-# TODO handle connectivity exceptions
-
 NO_CONNECTION = "Could not connect to source. Please try again."
 us_url = "https://psdeals.net/us-store"
 search_url_list = ["https://psdeals.net/", "-store/search"]
